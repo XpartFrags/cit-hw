@@ -75,3 +75,43 @@
     }
 }
 
+
+
+@media (max-width:360px) {
+    .nav-links {
+    display: none;
+}
+
+.bars_icon{
+    font-size: 15px;
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.hero {
+    height: 370px;
+
+}
+.hero-content h1 {
+    font-size: 39px;
+}
+.about-content {
+        flex-direction: column;  
+        gap: 30px;}
+
+        .contact-info {
+        flex-direction: column; 
+        gap: 30px;
+        align-items: center;
+    }
+    .hero-content h1 {
+    font-size: 34px;
+}
+}
